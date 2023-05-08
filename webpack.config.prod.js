@@ -17,7 +17,7 @@ export default {
 		modules:["node_modules", "src"],
 		extensions: [".js", ".jsx", ".json", ".ts", ".tsx"]
 	},
-	devtool: "source-map", // more info:https://webpack.github.io/docs/build-performance.html#sourcemaps and https://webpack.github.io/docs/configuration.html#devtool
+	devtool: "#eval-source-map", // more info:https://webpack.github.io/docs/build-performance.html#sourcemaps and https://webpack.github.io/docs/configuration.html#devtool
 	entry: [
 		"babel-polyfill",
 		"whatwg-fetch",

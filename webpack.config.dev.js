@@ -14,7 +14,7 @@ export default {
 		modules:["node_modules", "src"],
 		extensions: [".js", ".jsx", ".json", ".ts", ".tsx"]
 	},
-	devtool: "source-map",
+	devtool: "#eval-source-map",
 	entry: [
 		"babel-polyfill",
 		"whatwg-fetch",
